@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" fill="none">
+  <!-- Graduation cap icon -->
+  <g transform="translate(4, 8)">
+    <!-- Cap top -->
+    <polygon points="16,4 0,14 16,24 32,14" fill="#6366F1"/>
+    <!-- Cap brim accent -->
+    <polygon points="16,4 0,14 16,24 32,14" fill="#6366F1" opacity="0.9"/>
+    <!-- Tassel -->
+    <line x1="26" y1="12" x2="30" y2="22" stroke="#F59E0B" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="30" cy="23" r="2" fill="#F59E0B"/>
+    <!-- Cap bottom -->
+    <path d="M6,16 L6,22 Q16,28 26,22 L26,16" fill="#818CF8" opacity="0.6"/>
+  </g>
+  <!-- Text "UniPass" -->
+  <text x="44" y="34" font-family="system-ui, sans-serif" font-weight="800" font-size="28" fill="white">
+    <tspan fill="white">Uni</tspan><tspan fill="#6366F1">Pass</tspan>
+  </text>
+</svg>
