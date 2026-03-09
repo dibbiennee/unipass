@@ -18,7 +18,7 @@ function CatalogoContent() {
   };
 
   return (
-    <div className="container-app py-6">
+    <div className="container-app py-6 overflow-x-hidden">
       <h1 className="text-display-md mb-6">Catalogo</h1>
 
       <Input
