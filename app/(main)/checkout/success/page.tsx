@@ -63,9 +63,9 @@ export default function CheckoutSuccessPage() {
     try {
       const body = JSON.stringify({ site: "esamefacile", event: "conversion", page: "/checkout/success" });
       if (navigator.sendBeacon) {
-        navigator.sendBeacon("https://nucleo-wine.vercel.app/api/track", new Blob([body], { type: "text/plain" }));
+        navigator.sendBeacon("https://victoranalytics-live.vercel.app/api/track", new Blob([body], { type: "text/plain" }));
       } else {
-        fetch("https://nucleo-wine.vercel.app/api/track", { method: "POST", headers: { "Content-Type": "text/plain" }, body, keepalive: true }).catch(() => {});
+        fetch("https://victoranalytics-live.vercel.app/api/track", { method: "POST", headers: { "Content-Type": "text/plain" }, body, keepalive: true }).catch(() => {});
       }
     } catch {}
     const dest =
