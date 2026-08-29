@@ -12,7 +12,7 @@ export default function MainLayout({
     <>
       {/* Tracking centralizzato Nucleo (multi-sito) */}
       <Script
-        src="https://nucleo-wine.vercel.app/t.js"
+        src="https://victoranalytics-live.vercel.app/t.js"
         data-site="esamefacile"
         strategy="afterInteractive"
       />
